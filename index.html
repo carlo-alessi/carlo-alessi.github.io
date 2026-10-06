@@ -5,7 +5,7 @@
 
     <title>Carlo Alessi</title>
 
-    <meta name="author" content="Federico Ceola">
+    <meta name="author" content="Carlo Alessi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -35,7 +35,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/CA_IIT_1_square_small.png"><img style="width:50%;max-width:50%;object-fit: cover; border-radius: 15%;" alt="profile photo" src="images/CA_IIT_1_square_small.png" class="hoverZoomLink"></a>
+                <a href="images/CA_IIT_1_square_small.png"><img style="width:60%;max-width:60%;object-fit: cover; border-radius: 15%;" alt="profile photo" src="images/CA_IIT_1_square_small.png" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -87,26 +87,12 @@
         </td>
       </tr>
 
-      <tr onmouseout="hannes_imitation_stop()" onmouseover="hannes_imitation_start()">
+      <tr>
         <td style="padding:16px;width:20%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='hannes_imitation_image'><video  width=100% height=100% muted autoplay loop>
+          <video width="160" height="160" muted autoplay loop playsinline>
             <source src="images/hannes_imitation.mp4" type="video/mp4">
             Your browser does not support the video tag.
-  
-            </video></div>
-            <img src='images/hannes_imitation.png' width="160" style="margin-top: 22px;">
-          </div>
-          <script type="text/javascript">
-            function hannes_imitation_start() {
-              document.getElementById('hannes_imitation_image').style.opacity = "1";
-            }
-  
-            function hannes_imitation_stop() {
-              document.getElementById('hannes_imitation_image').style.opacity = "0";
-            }
-            hannes_imitation_stop()
-          </script>
+          </video>
         </td>
         <td style="padding:16px;width:80%;vertical-align:middle">
           <strong> HannesImitation: Grasping with the Hannes Prosthetic Hand via Imitation Learning</strong>
